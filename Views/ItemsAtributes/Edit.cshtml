@@ -1,0 +1,141 @@
+﻿@model PPSI3.Models.ItemsAtribute
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>ItemsAtribute</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="ItemId" class="control-label"></label>
+                <input asp-for="ItemId" class="form-control" />
+                <span asp-validation-for="ItemId" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Heals" /> @Html.DisplayNameFor(model => model.Heals)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Shield" /> @Html.DisplayNameFor(model => model.Shield)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Poke" /> @Html.DisplayNameFor(model => model.Poke)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="HasCC" /> @Html.DisplayNameFor(model => model.HasCC)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="MagicDamage" /> @Html.DisplayNameFor(model => model.MagicDamage)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="AttackDamage" /> @Html.DisplayNameFor(model => model.AttackDamage)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Dash" /> @Html.DisplayNameFor(model => model.Dash)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="CanOneShot" /> @Html.DisplayNameFor(model => model.CanOneShot)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Tanky" /> @Html.DisplayNameFor(model => model.Tanky)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Squishy" /> @Html.DisplayNameFor(model => model.Squishy)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="LateGame" /> @Html.DisplayNameFor(model => model.LateGame)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstHeals" class="control-label"></label>
+                <input asp-for="IsGoodAgainstHeals" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstHeals" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstShield" class="control-label"></label>
+                <input asp-for="IsGoodAgainstShield" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstShield" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstPoke" class="control-label"></label>
+                <input asp-for="IsGoodAgainstPoke" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstPoke" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstCC" class="control-label"></label>
+                <input asp-for="IsGoodAgainstCC" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstCC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstMagicDamage" class="control-label"></label>
+                <input asp-for="IsGoodAgainstMagicDamage" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstMagicDamage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstAttackDamage" class="control-label"></label>
+                <input asp-for="IsGoodAgainstAttackDamage" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstAttackDamage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstDash" class="control-label"></label>
+                <input asp-for="IsGoodAgainstDash" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstDash" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstOneShot" class="control-label"></label>
+                <input asp-for="IsGoodAgainstOneShot" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstOneShot" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstTanky" class="control-label"></label>
+                <input asp-for="IsGoodAgainstTanky" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstTanky" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstSquishy" class="control-label"></label>
+                <input asp-for="IsGoodAgainstSquishy" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstSquishy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsGoodAgainstLateGame" class="control-label"></label>
+                <input asp-for="IsGoodAgainstLateGame" class="form-control" />
+                <span asp-validation-for="IsGoodAgainstLateGame" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

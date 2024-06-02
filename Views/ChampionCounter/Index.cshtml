@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<main>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light text-white">
+                    Champion Query
+                </h1>
+                <br />
+                <form asp-action="ChampionCounters" method="post" id="championForm" autocomplete="off" onsubmit="return false;">
+                    <div class="mb-3 position-relative">
+                        <input type="text" class="form-control" name="name" id="championName" placeholder="Select enemy Champion" readonly onfocus="this.removeAttribute('readonly');" oninput="showSuggestions(this.value)">
+                        <div id="suggestions" class="list-group position-absolute w-100 overflow-auto" style="z-index: 1000; max-height: 200px; text-shadow:none;"></div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+@section Scripts {
+    <script>
+        function showSuggestions(query) {
+            if (query.length === 0) {
+                document.getElementById('suggestions').innerHTML = '';
+                return;
+            }
+            fetch(`/ChampionCounter/GetChampionSuggestions?query=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    let suggestions = document.getElementById('suggestions');
+                    suggestions.innerHTML = '';
+                    data.forEach(champion => {
+                        let item = document.createElement('a');
+                        item.classList.add('list-group-item', 'list-group-item-action', 'd-flex', 'align-items-center');
+                        let img = document.createElement('img');
+                        img.src = champion.photo;
+                        img.alt = champion.name;
+                        img.style.width = '40px';
+                        img.style.height = '40px';
+                        img.classList.add('me-2');
+                        let span = document.createElement('span');
+                        span.textContent = champion.name;
+                        item.appendChild(img);
+                        item.appendChild(span);
+                        item.onclick = () => {
+                            document.getElementById('championName').value = champion.name;
+                            document.getElementById('suggestions').innerHTML = '';
+                            document.getElementById('championForm').submit();
+                        };
+                        suggestions.appendChild(item);
+                    });
+                });
+        }
+    </script>
+}

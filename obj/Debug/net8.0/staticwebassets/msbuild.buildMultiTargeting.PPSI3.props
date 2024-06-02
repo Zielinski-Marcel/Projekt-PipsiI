@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PPSI3.props" />
+</Project>
