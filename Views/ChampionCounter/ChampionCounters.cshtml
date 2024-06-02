@@ -63,8 +63,40 @@
                     <div class="mb-3 position-relative">
                         <input type="text" class="form-control" name="name" id="championName" placeholder="Select enemy Champion" readonly onfocus="this.removeAttribute('readonly');" oninput="showSuggestions(this.value)">
                         <div id="suggestions" class="list-group position-absolute w-100 overflow-auto" style="z-index: 1000; max-height: 200px; text-shadow:none;"></div>
-                        
-                    </div>
+                            <div class="form-group">
+                                <label for="role">Select Role:</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="role" id="roleTop" value="Top">
+                                    <label class="form-check-label" for="roleTop">
+                                        Top
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="role" id="roleJungle" value="Jungle">
+                                    <label class="form-check-label" for="roleJungle">
+                                        Jungle
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="role" id="roleMid" value="Mid">
+                                    <label class="form-check-label" for="roleMid">
+                                        Mid
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="role" id="roleBot" value="Bot">
+                                    <label class="form-check-label" for="roleBot">
+                                        Bot
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="role" id="roleSupp" value="Supp">
+                                    <label class="form-check-label" for="roleSupp">
+                                        Supp
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
                 </form>
             </div>
         </div>

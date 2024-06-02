@@ -10,7 +10,7 @@ namespace PPSI.Nowy_folder
         public string BackgrundPhoto { get; set; }
         public string Photo {  get; set; }
 
-        public static int getChampionIdByName(string name, List<Champion> championList)
+        public static Champion getChampionByName(string name, List<Champion> championList)
         {
             Champion correctChampion = championList[1];
             foreach (Champion champion in championList)
@@ -18,10 +18,23 @@ namespace PPSI.Nowy_folder
                 if (champion.Name == name)
                 {
                     correctChampion = champion;
-                    return correctChampion.Id;
+                    return correctChampion;
                 }
             }
-            return 0;
+            return null;
+        }
+        public static int getChampionIdByName(string name, List<Champion> championList)
+        {
+            int correctChampion = 0;
+            foreach (Champion champion in championList)
+            {
+                if (champion.Name == name)
+                {
+                    correctChampion = champion.Id;
+                    return correctChampion;
+                }
+            }
+            return correctChampion;
         }
         public static Champion getChampionById(int id, List<Champion> championList)
         {
@@ -37,18 +50,6 @@ namespace PPSI.Nowy_folder
             return correctChampion;
         }
 
-        public static string getChampionPhotoByName(string name, List<Champion> championList)
-        {
-            string correctChampion = "https://static.wikia.nocookie.net/leagueoflegends/images/c/c0/Enemy_Missing_ping.png";
-            foreach (Champion champion in championList)
-            {
-                if (champion.Name == name)
-                {
-                    correctChampion = champion.Photo;
-                    return correctChampion;
-                }
-            }
-            return correctChampion;
-        }
+       
     }
 }

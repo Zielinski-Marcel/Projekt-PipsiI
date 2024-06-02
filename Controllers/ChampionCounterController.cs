@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PPSI.Nowy_folder;
+using PPSI3.ExtraData;
 using PPSI3.Models;
 using PPSI3.ViewModels;
 using System.Linq;
@@ -22,20 +23,24 @@ namespace PPSI3.Controllers
         }
 
         [HttpPost]
-        public IActionResult ChampionCounters(string name)
+        public IActionResult ChampionCounters(string name,string Role)
         {
+            //DB
             var ChampionsAtributes = context.ChampionsAtribute.ToList();
             var Champions = context.Champions.ToList();
-            int championId = Champion.getChampionIdByName(name, Champions);
-            Champion enemy = Champion.getChampionById(championId,Champions);
-            string championPhoto = Champion.getChampionPhotoByName(name, Champions);
-            ChampionsAtribute enemyLaner = ChampionsAtribute.getChampionsAtributeById(championId, ChampionsAtributes);
-            List<Champion> bestChampions = ChampionsAtribute.SelectChampionAgainstLaner(enemyLaner, ChampionsAtributes, Champions);
+            var ChampionsRoles= context.ChampionsRole.ToList();
+            //MergeDB
+            List<ChampionsMerge> Champs = ChampionsMerge.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
+            //Filter
+            Champs = ChampionsAtribute.RoleFilter(Champs, Role);
+
+            ChampionsAtribute enemyLaner = ChampionsAtribute.getChampionsAtributeById(Champion.getChampionIdByName(name, Champions), ChampionsAtributes);
             var ViewModel = new ChampionCounterViewModel
             {
-                BestChampions = bestChampions,
-                SelectedChampion = enemy
+                BestChampions = ChampionsAtribute.SelectChampionAgainstLaner(enemyLaner, Champs, Champions),
+                SelectedChampion = Champion.getChampionByName(name, Champions)
             };
+
             return View(ViewModel);
         }
 
