@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPSI3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8c5b35275dd71e2e0c1871339d674304adf9d75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2b9b456b5b13675d8e2b26b089f3982d0f1be8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPSI3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPSI3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

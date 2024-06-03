@@ -4,3 +4,21 @@
     padding: 30px;
 }
 
+.checkmark {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    left: -9999px; /* Moves the input out of view */
+}
+
+.checkmarkPhoto img {
+    cursor: pointer;
+    opacity: 70%;
+    width: 50%;
+    height: auto;
+}
+
+.checkmark:checked + .checkmarkPhoto img {
+    opacity: 120%;
+
+}

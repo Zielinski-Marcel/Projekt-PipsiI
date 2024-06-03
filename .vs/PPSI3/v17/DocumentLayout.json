@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\championcounters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\championcounters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\championcounters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\championcounters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\championcounters.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\championcounters.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,17 +37,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "D:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "D:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAKISAAAAAAAAAAASwMISAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-02T19:51:10.963Z",
+              "DocumentIndex": 2,
+              "Title": "ChampionCounters.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\ChampionCounters.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\ChampionCounter\\ChampionCounters.cshtml.css",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\ChampionCounters.cshtml.css",
+              "RelativeToolTip": "Views\\ChampionCounter\\ChampionCounters.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-03T14:48:58.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\Index.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\ChampionCounter\\Index.cshtml.css",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\Index.cshtml.css",
+              "RelativeToolTip": "Views\\ChampionCounter\\Index.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-03T13:54:46.282Z",
               "EditorCaption": ""
             },
             {
@@ -50,25 +73,38 @@
               "RelativeDocumentMoniker": "Views\\ChampionCounter\\Index.cshtml",
               "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\Index.cshtml",
               "RelativeToolTip": "Views\\ChampionCounter\\Index.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAUwDAAAAAeAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwDMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T19:50:43.341Z"
+              "WhenOpened": "2024-06-02T19:50:43.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ChampionCounters.cshtml",
               "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\ChampionCounters.cshtml",
               "RelativeDocumentMoniker": "Views\\ChampionCounter\\ChampionCounters.cshtml",
               "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\ChampionCounters.cshtml",
               "RelativeToolTip": "Views\\ChampionCounter\\ChampionCounters.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAwwGIAAAAAAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAUwGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T19:35:19.034Z"
+              "WhenOpened": "2024-06-02T19:35:19.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "D:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAKISAAAAAAAAAAASwMISAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-02T19:51:10.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -80,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",

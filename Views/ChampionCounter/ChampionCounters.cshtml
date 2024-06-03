@@ -52,61 +52,63 @@
 
 <main>
     <body>
-    <section class="py-5 text-center container content-wrapper">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light text-white">
-                    Champion Query
-                </h1>
-                <br />
-                <form asp-action="ChampionCounters" method="post" id="championForm" autocomplete="off" onsubmit="return false;">
-                    <div class="mb-3 position-relative">
-                        <input type="text" class="form-control" name="name" id="championName" placeholder="Select enemy Champion" readonly onfocus="this.removeAttribute('readonly');" oninput="showSuggestions(this.value)">
-                        <div id="suggestions" class="list-group position-absolute w-100 overflow-auto" style="z-index: 1000; max-height: 200px; text-shadow:none;"></div>
-                            <div class="form-group">
-                                <label for="role">Select Role:</label>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="role" id="roleTop" value="Top">
-                                    <label class="form-check-label" for="roleTop">
-                                        Top
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="role" id="roleJungle" value="Jungle">
-                                    <label class="form-check-label" for="roleJungle">
-                                        Jungle
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="role" id="roleMid" value="Mid">
-                                    <label class="form-check-label" for="roleMid">
-                                        Mid
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="role" id="roleBot" value="Bot">
-                                    <label class="form-check-label" for="roleBot">
-                                        Bot
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="role" id="roleSupp" value="Supp">
-                                    <label class="form-check-label" for="roleSupp">
-                                        Supp
-                                    </label>
-                                </div>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light text-white">
+                        Purrofessor
+                    </h1>
+                    <br />
+                    <form asp-action="ChampionCounters" method="post" id="championForm" autocomplete="off" onsubmit="return false;">
+                        <div class="mb-3 position-relative" style="display:flex; align-items:center !important ">
+                            <div class="form-check">
+                                <input class="checkmark" type="radio" name="role" id="roleTop" value="Top">
+                                <label class="checkmarkPhoto" for="roleTop">
+                                    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/e/ef/Top_icon.png" alt="Top Icon" />
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="checkmark" type="radio" name="role" id="roleJungle" value="Jungle">
+                                <label class="checkmarkPhoto" for="roleJungle">
+                                    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png" alt="Jungle Icon" />
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="checkmark" type="radio" name="role" id="roleMid" value="Mid">
+                                <label class="checkmarkPhoto" for="roleMid">
+                                    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/9/98/Middle_icon.png" alt="Mid Icon" />
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="checkmark" type="radio" name="role" id="roleBot" value="Bot">
+                                <label class="checkmarkPhoto" for="roleBot">
+                                    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/9/97/Bottom_icon.png" alt="Bot Icon" />
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="checkmark" type="radio" name="role" id="roleSupp" value="Supp">
+                                <label class="checkmarkPhoto" for="roleSupp">
+                                    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png" alt="Support Icon" />
+                                </label>
                             </div>
                         </div>
-                </form>
+                        <div class="mb-3 position-relative">
+                            <input type="text" class="form-control" name="name" id="championName" placeholder="Select enemy Champion" readonly onfocus="this.removeAttribute('readonly');" oninput="showSuggestions(this.value)">
+                            <div id="suggestions" class="list-group position-absolute w-100 overflow-auto" style="z-index: 1000; max-height: 200px; text-shadow:none;"></div>
+
+
+                        </div>
+                    </form>
+
             </div>
+
         </div>
+            <p class="lead text-body-secondary text-white">Best champions against @Model.SelectedChampion?.Name.</p>
 
         <div class="album py-5 bg-body-tertiary">
-
+<br />
 
             <div class="center container">
-                <p class="lead text-body-secondary text-white">Best champions against @Model.SelectedChampion?.Name.</p>
-                <br />
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         @foreach (var champion in Model.BestChampions)
                         {
