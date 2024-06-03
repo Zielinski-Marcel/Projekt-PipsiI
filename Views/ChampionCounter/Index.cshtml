@@ -9,9 +9,10 @@
                 <h1 class="fw-light text-white">
                     Purrofessor
                 </h1>
+                <h3>Choose a role</h3>
                 <br />
                 <form asp-action="ChampionCounters" method="post" id="championForm" autocomplete="off" onsubmit="return false;">
-                    <div class="mb-3 position-relative" style="display:flex; align-items:center !important ">
+                    <div class="mb-3 position-relative" style="display:flex; align-items:center !important; background-color: rgba(0, 0, 0, 0.7); padding-top:10px; padding-bottom:10px; border-radius: 10px;">
                         <div class="form-check">
                             <input class="checkmark" type="radio" name="role" id="roleTop" value="Top">
                             <label class="checkmarkPhoto" for="roleTop">
@@ -43,12 +44,32 @@
                             </label>
                         </div>
                     </div>
-                    <div class="mb-3 position-relative">
+                    <div class="mb-3 position-relative" style="display:none;" id="championField">
                         <input type="text" class="form-control" name="name" id="championName" placeholder="Select enemy Champion" readonly onfocus="this.removeAttribute('readonly');" oninput="showSuggestions(this.value)">
-                        <div id="suggestions" class="list-group position-absolute w-100 overflow-auto" style="z-index: 1000; max-height: 200px; text-shadow:none;"></div>
-
-
+                        <div id="suggestions" class="list-group position-absolute w-100 overflow-auto" style="z-index: 1000; max-height: 200px; text-shadow:none; background-color: rgba(0, 0, 0, 0.7);"></div>
+                        <style>
+                            #suggestions .list-group-item {
+                                background-color: rgba(0, 0, 0, 0.7);
+                                color: white;
+                                outline: 2px solid gray;
+                            }
+                        </style>
                     </div>
+
+                    <script>
+                        function showChampionField() {
+                            var championField = document.getElementById("championField");
+                            championField.style.display = "block";
+                        }
+
+                        // Add onchange event to radio inputs
+                        var roleInputs = document.querySelectorAll('input[name="role"]');
+                        roleInputs.forEach(function (input) {
+                            input.addEventListener('change', function () {
+                                showChampionField();
+                            });
+                        });
+                    </script>
                 </form>
             </div>
         </div>

@@ -520,3 +520,4 @@ C:\Users\buchc\Desktop\Projekt-PipsiI-master\Projekt-PipsiI-master\obj\Debug\net
 C:\Users\buchc\Desktop\Projekt-PipsiI-master\Projekt-PipsiI-master\obj\Debug\net8.0\PPSI3.genruntimeconfig.cache
 C:\Users\buchc\Desktop\Projekt-PipsiI-master\Projekt-PipsiI-master\obj\Debug\net8.0\ref\PPSI3.dll
 C:\Users\buchc\Desktop\Projekt-PipsiI-master\Projekt-PipsiI-master\obj\Debug\net8.0\PPSI3.sourcelink.json
+C:\Users\buchc\Desktop\Projekt-PipsiI-master\Projekt-PipsiI-master\obj\Debug\net8.0\scopedcss\Views\ChampionCounter\ChampionCounters.cshtml.rz.scp.css
