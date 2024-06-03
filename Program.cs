@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PPSI.Nowy_folder;
-using PPSI3.Controllers;
+using PPSI3.Controllers.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 

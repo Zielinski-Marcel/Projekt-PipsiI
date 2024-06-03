@@ -17,375 +17,379 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PPSI3
 build_property.RootNamespace = PPSI3
-build_property.ProjectDir = C:\Users\Marcel\Desktop\123\Projekt-PipsiI\
+build_property.ProjectDir = C:\Users\Marcel\Desktop\Projekt-PipsiI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Marcel\Desktop\123\Projekt-PipsiI
+build_property.MSBuildProjectDirectory = C:\Users\Marcel\Desktop\Projekt-PipsiI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Pages/Error.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Pages/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Pages/Privacy.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Pages/_ViewImports.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Pages/_ViewStart.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/BootsAtributes/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/BootsAtributes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNBdHJpYnV0ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/BootsAtributes/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/BootsAtributes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNBdHJpYnV0ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/BootsAtributes/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/BootsAtributes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNBdHJpYnV0ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/BootsAtributes/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/BootsAtributes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNBdHJpYnV0ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/BootsAtributes/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/BootsAtributes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNBdHJpYnV0ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Boots/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Boots/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Boots/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Boots/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Boots/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Boots/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Boots/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Boots/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Boots/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Boots/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsAtributes/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsAtributes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zQXRyaWJ1dGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsAtributes/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsAtributes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zQXRyaWJ1dGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsAtributes/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsAtributes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zQXRyaWJ1dGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsAtributes/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsAtributes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zQXRyaWJ1dGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsAtributes/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsAtributes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zQXRyaWJ1dGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsRoles/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsRoles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zUm9sZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsRoles/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsRoles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zUm9sZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsRoles/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsRoles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zUm9sZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsRoles/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsRoles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionsRoles/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsRoles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Champions/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Champions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Champions/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Champions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Champions/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Champions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Champions/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Champions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Champions/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Champions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Equipments/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Equipments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Equipments/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Equipments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Equipments/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Equipments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Equipments/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Equipments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Equipments/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Equipments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/GameModes/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/GameModes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZU1vZGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/GameModes/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/GameModes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZU1vZGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/GameModes/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/GameModes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZU1vZGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/GameModes/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/GameModes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZU1vZGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/GameModes/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/GameModes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZU1vZGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Home/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Home/Privacy.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ItemsAtributes/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ItemsAtributes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNBdHJpYnV0ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ItemsAtributes/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ItemsAtributes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNBdHJpYnV0ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ItemsAtributes/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ItemsAtributes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNBdHJpYnV0ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ItemsAtributes/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ItemsAtributes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNBdHJpYnV0ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ItemsAtributes/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ItemsAtributes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNBdHJpYnV0ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Items/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Items/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Items/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Items/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Items/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Items/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Items/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Items/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Items/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Items/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Maps/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Maps/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Maps/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Maps/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Maps/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Maps/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Maps/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Maps/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Maps/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Maps/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Matches/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Matches/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Matches/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Matches/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Matches/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Matches/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Matches/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Matches/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Matches/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Matches/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Players/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Players/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Players/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Players/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Players/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Players/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Players/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Players/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Players/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Players/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Shared/Error.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Summoners/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Summoners/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VtbW9uZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Summoners/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Summoners/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VtbW9uZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Summoners/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Summoners/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VtbW9uZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Summoners/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Summoners/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VtbW9uZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Summoners/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Summoners/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VtbW9uZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Teams/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Teams/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Teams/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Teams/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Teams/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Teams/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Teams/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Teams/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Teams/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Teams/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Trinkets/Create.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Trinkets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbmtldHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Trinkets/Delete.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Trinkets/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbmtldHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Trinkets/Details.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Trinkets/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbmtldHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Trinkets/Edit.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Trinkets/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbmtldHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Trinkets/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Trinkets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbmtldHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/_ViewImports.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/_ViewStart.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Pages/Shared/_Layout.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vu5m76yqoq
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionCounter/ChampionCounters.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionCounter/ChampionCounters.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25Db3VudGVyXENoYW1waW9uQ291bnRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-317w5f2sd5
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/ChampionCounter/Index.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionCounter/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25Db3VudGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-2n4h1zs7cd
 
-[C:/Users/Marcel/Desktop/123/Projekt-PipsiI/Views/Shared/_Layout.cshtml]
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/ChampionsList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zTGlzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-v4ccfsvnmc
+
+[C:/Users/Marcel/Desktop/Projekt-PipsiI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-iw3xuayczt

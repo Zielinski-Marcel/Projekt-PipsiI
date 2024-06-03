@@ -12,9 +12,9 @@ namespace PPSI.Nowy_folder
         public int TeamAmount { get; set; }
         public string Description { get; set; }
 
-        internal static List<GameMode>? getGameModeByMatchId(int matchId, List<GameMode> gameModes)
+        internal static GameMode getGameModeByMatchId(int gameModeId, List<GameMode> gameModes)
         {
-
+            foreach (GameMode gameMode in gameModes) { if (gameModeId == gameMode.Id) return gameMode; }
             throw new NotImplementedException();
         }
     }

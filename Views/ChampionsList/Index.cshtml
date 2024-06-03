@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    body {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content-wrapper {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    <style >
+    body {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        filter: blur(10px);
+        z-index: -1;
+    }
+
+    .content-wrapper {
+        padding: 20px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+    }
+</style>
+
+<main>
+    <body>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light text-white">
+                        Purrofessor
+                    </h1>
+                    <br />
+                </div>
+
+            </div>
+            <div class="album py-5 bg-body-tertiary">
+                <br />
+
+                <div class="center container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-5" style="background-color: rgba(0, 0, 0, 0.7);">
+                            @foreach (var champion in Model)
+                            {
+                            <div class="col" style="min-width:200px; min-height:auto; max-width:300px;max-height:auto">
+                                <div class="card shadow-sm" style="background-color: rgba(0, 0, 0, 0); color: white;">
+                                    <div class="text-center">
+                                        <img src="@champion.Photo" class="champ-icon" />
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text"><h3>@champion.Name</h3></p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            }
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</main>

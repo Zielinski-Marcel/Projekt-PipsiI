@@ -16,9 +16,14 @@
     opacity: 70%;
     width: 35%;
     height: auto;
+    transition: all 0.15s ease;
 }
 
 .checkmark:checked + .checkmarkPhoto img[b-2n4h1zs7cd] {
     opacity: 120%;
 
 }
+
+    .checkmarkPhoto img:hover[b-2n4h1zs7cd] {
+        transform: scale(1.4);
+    }

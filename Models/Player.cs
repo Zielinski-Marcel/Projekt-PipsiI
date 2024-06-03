@@ -1,4 +1,5 @@
-﻿namespace PPSI.Nowy_folder
+﻿
+namespace PPSI.Nowy_folder
 {
     public class Player
     {
@@ -12,5 +13,15 @@
         public int Asists { get; set; }
         public int Cs {  get; set; }
         public int Gold { get; set; }
+
+        internal static List<Player>? getPlayersByMatchId(int matchId, List<Player> players)
+        {
+            List<Player>? result = null;
+            foreach (Player player in players)
+            {
+                if (player.MatchId == matchId) { result.Add(player); }
+            }
+            return result;
+        }
     }
 }

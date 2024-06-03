@@ -8,6 +8,8 @@ namespace PPSI3.ViewModels
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public string Photo { get; set; }
         public bool Top { get; set; }
 
         public bool Jungle { get; set; }
@@ -45,6 +47,7 @@ namespace PPSI3.ViewModels
         {
             Id = champion.Id;
             Name = champion.Name;
+            Photo= champion.Photo;
             Top = championsRole.Top;
             Jungle = championsRole.Jungle;
             Mid = championsRole.Mid;

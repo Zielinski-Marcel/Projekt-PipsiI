@@ -1,0 +1,11 @@
+.champ-icon[b-v4ccfsvnmc] {
+    height: auto;
+    width: 180px;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.champ-icon:hover[b-v4ccfsvnmc]{
+    transform: scale(1.2);
+}

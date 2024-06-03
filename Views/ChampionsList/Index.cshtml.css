@@ -1,0 +1,11 @@
+﻿.champ-icon {
+    height: auto;
+    width: 180px;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.champ-icon:hover{
+    transform: scale(1.2);
+}

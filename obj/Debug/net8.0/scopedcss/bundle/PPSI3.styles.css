@@ -91,11 +91,28 @@ button.accept-policy[b-vu5m76yqoq] {
     opacity: 70%;
     width: 35%;
     height: auto;
+    transition: all 0.15s ease;
 }
 
 .checkmark:checked + .checkmarkPhoto img[b-2n4h1zs7cd] {
     opacity: 120%;
 
+}
+
+    .checkmarkPhoto img:hover[b-2n4h1zs7cd] {
+        transform: scale(1.4);
+    }
+/* _content/PPSI3/Views/ChampionsList/Index.cshtml.rz.scp.css */
+.champ-icon[b-v4ccfsvnmc] {
+    height: auto;
+    width: 180px;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.champ-icon:hover[b-v4ccfsvnmc]{
+    transform: scale(1.2);
 }
 /* _content/PPSI3/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification

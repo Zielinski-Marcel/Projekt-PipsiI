@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FzwsIbidRK2fbvjD8c1xha4WKEJpqkslKRejmkPafLhOC/odUJoH1nKWMAM3L3OClO4EJF2WFbVVDSgHxgILEw==",
+  "dgSpecHash": "0aH5juICFHx3RHzIBb+Bj9AQyLpcjQvRBjokEadpnTy0ebbTM9Tnxgni8yxUVXvBq9jD4ui/gM1nRZaj6AfNUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\PPSI3.csproj",
+  "projectFilePath": "C:\\Users\\Marcel\\Desktop\\Projekt-PipsiI\\PPSI3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marcel\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

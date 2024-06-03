@@ -38,7 +38,7 @@ namespace PPSI.Nowy_folder
         }
         public static Champion getChampionById(int id, List<Champion> championList)
         {
-            Champion correctChampion = championList[1];
+            Champion correctChampion = null;
             foreach (Champion champion in championList)
             {
                 if (champion.Id == id)
@@ -50,6 +50,5 @@ namespace PPSI.Nowy_folder
             return correctChampion;
         }
 
-       
     }
 }
