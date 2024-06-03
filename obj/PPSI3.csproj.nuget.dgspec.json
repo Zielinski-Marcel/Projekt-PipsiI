@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\PPSI3.csproj": {}
+    "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\PPSI3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\PPSI3.csproj": {
+    "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\PPSI3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\PPSI3.csproj",
+        "projectUniqueName": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\PPSI3.csproj",
         "projectName": "PPSI3",
-        "projectPath": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\PPSI3.csproj",
-        "packagesPath": "C:\\Users\\buchc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\obj\\",
+        "projectPath": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\PPSI3.csproj",
+        "packagesPath": "C:\\Users\\Marcel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\buchc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

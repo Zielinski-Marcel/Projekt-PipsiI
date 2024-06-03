@@ -2,6 +2,7 @@
 using Microsoft.Identity.Client;
 using PPSI.Nowy_folder;
 using PPSI3.ExtraData;
+using PPSI3.ViewModels;
 using System.Security.Cryptography;
 
 namespace PPSI3.Models
@@ -45,7 +46,7 @@ namespace PPSI3.Models
             return null;
         }
 
-        public static List<ChampionsMerge> RoleFilter(List<ChampionsMerge> Champions, string role)
+        public static List<ChampionsListViewModel> RoleFilter(List<ChampionsListViewModel> Champions, string role)
         {
             RoleFilter enemyRole = new RoleFilter();
             switch (role.ToLower())
@@ -66,7 +67,7 @@ namespace PPSI3.Models
                     enemyRole.Top = true;
                     break;
                 default:
-                    return new List<ChampionsMerge>();
+                    return new List<ChampionsListViewModel>();
             }
             var filteredChampions = Champions.Where(champion =>
                 (enemyRole.Bot && champion.Bot) ||
@@ -79,12 +80,12 @@ namespace PPSI3.Models
             return filteredChampions;
         }
 
-        public static List<Champion> SelectChampionAgainstLaner(ChampionsAtribute enemyLaner, List <ChampionsMerge> Champions, List <Champion> champions)
+        public static List<Champion> SelectChampionAgainstLaner(ChampionsAtribute enemyLaner, List <ChampionsListViewModel> Champions, List <Champion> champions)
         {
             int maxScore = 0;
             Champion bestChampion;
             List<Champion> bestChampions= new List<Champion>();
-            foreach (ChampionsMerge champion in Champions)
+            foreach (ChampionsListViewModel champion in Champions)
             {
 
                 if (enemyLaner.ChampionId != champion.Id)

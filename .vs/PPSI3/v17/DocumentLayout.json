@@ -1,33 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\",
+  "WorkspaceRootPath": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\controllers\\championslistcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:controllers\\championslistcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\controllers\\championsatributescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:controllers\\championsatributescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\controllers\\championcountercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:controllers\\championcountercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\championcounters.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\viewmodels\\championslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:viewmodels\\championslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\viewmodels\\matchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:viewmodels\\matchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\viewmodels\\championcounterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:viewmodels\\championcounterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\controllers\\matchhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:controllers\\matchhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\views\\championcounter\\championcounters.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\championcounters.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\championcounter\\championcounters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\views\\championcounter\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\views\\championcounter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\views\\championcounter\\championcounters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\championcounter\\championcounters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\buchc\\desktop\\projekt-pipsii-master\\projekt-pipsii-master\\views\\champions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|c:\\users\\marcel\\desktop\\123\\projekt-pipsii\\views\\champions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E47647A6-6FB2-45C6-A835-8D3BFBF0ACF9}|PPSI3.csproj|solutionrelative:views\\champions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -38,28 +70,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChampionsAtributesController.cs",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Controllers\\ChampionsAtributesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChampionsAtributesController.cs",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Controllers\\ChampionsAtributesController.cs",
+              "RelativeToolTip": "Controllers\\ChampionsAtributesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:27:09.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChampionCounterController.cs",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Controllers\\ChampionCounterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChampionCounterController.cs",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Controllers\\ChampionCounterController.cs",
+              "RelativeToolTip": "Controllers\\ChampionCounterController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:25:42.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-              "ViewState": "AQIAAHEsAAAAAAAAAAAAwJIsAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-03T16:47:02.146Z",
+              "Title": "ChampionsListControler.cs",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Controllers\\ChampionsListControler.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChampionsListControler.cs",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Controllers\\ChampionsListControler.cs",
+              "RelativeToolTip": "Controllers\\ChampionsListControler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:24:04.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ChampionsListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\ViewModels\\ChampionsListViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ChampionsListViewModel.cs",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\ViewModels\\ChampionsListViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ChampionsListViewModel.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:22:11.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MatchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\ViewModels\\MatchViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MatchViewModel.cs",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\ViewModels\\MatchViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MatchViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:22:07.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChampionCounterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\ViewModels\\ChampionCounterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ChampionCounterViewModel.cs",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\ViewModels\\ChampionCounterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ChampionCounterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:22:06.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MatchHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Controllers\\MatchHistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MatchHistoryController.cs",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Controllers\\MatchHistoryController.cs",
+              "RelativeToolTip": "Controllers\\MatchHistoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:20:47.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:07:52.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAHEsAAAAAAAAAAAAwJIsAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-03T16:47:02.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ChampionCounters.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\ChampionCounters.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\ChampionCounter\\ChampionCounters.cshtml.css",
               "RelativeDocumentMoniker": "Views\\ChampionCounter\\ChampionCounters.cshtml.css",
-              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\ChampionCounters.cshtml.css",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\ChampionCounter\\ChampionCounters.cshtml.css",
               "RelativeToolTip": "Views\\ChampionCounter\\ChampionCounters.cshtml.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -67,11 +202,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAADcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -79,11 +214,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\Index.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\ChampionCounter\\Index.cshtml.css",
               "RelativeDocumentMoniker": "Views\\ChampionCounter\\Index.cshtml.css",
-              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\Index.cshtml.css",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\ChampionCounter\\Index.cshtml.css",
               "RelativeToolTip": "Views\\ChampionCounter\\Index.cshtml.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -91,11 +226,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\Champions\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\Champions\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Champions\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\Champions\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\Champions\\Edit.cshtml",
               "RelativeToolTip": "Views\\Champions\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -103,11 +238,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\ChampionCounter\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ChampionCounter\\Index.cshtml",
-              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\ChampionCounter\\Index.cshtml",
               "RelativeToolTip": "Views\\ChampionCounter\\Index.cshtml",
               "ViewState": "AQIAAEgAAAAAAAAAAAAUwHMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -115,11 +250,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ChampionCounters.cshtml",
-              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\ChampionCounters.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\ChampionCounter\\ChampionCounters.cshtml",
               "RelativeDocumentMoniker": "Views\\ChampionCounter\\ChampionCounters.cshtml",
-              "ToolTip": "C:\\Users\\buchc\\Desktop\\Projekt-PipsiI-master\\Projekt-PipsiI-master\\Views\\ChampionCounter\\ChampionCounters.cshtml",
+              "ToolTip": "C:\\Users\\Marcel\\Desktop\\123\\Projekt-PipsiI\\Views\\ChampionCounter\\ChampionCounters.cshtml",
               "RelativeToolTip": "Views\\ChampionCounter\\ChampionCounters.cshtml",
               "ViewState": "AQIAAFcAAAAAAAAAAAAcwIIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

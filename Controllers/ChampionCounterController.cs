@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PPSI.Nowy_folder;
-using PPSI3.ExtraData;
 using PPSI3.Models;
 using PPSI3.ViewModels;
 using System.Linq;
@@ -30,7 +29,7 @@ namespace PPSI3.Controllers
             var Champions = context.Champions.ToList();
             var ChampionsRoles= context.ChampionsRole.ToList();
             //MergeDB
-            List<ChampionsMerge> Champs = ChampionsMerge.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
+            List<ChampionsListViewModel> Champs = ChampionsListViewModel.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
             //Filter
             Champs = ChampionsAtribute.RoleFilter(Champs, Role);
 

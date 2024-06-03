@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<DB>(options =>
 {
-    options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=PPSIDB2;Trusted_Connection=True;TrustServerCertificate=True;");
+    options.UseSqlServer("Server=DESKTOP-7UAFIFA\\SQLEXPRESS;Database=PPSIDB2;Trusted_Connection=True;TrustServerCertificate=True;");
 });
 
 builder.Services.AddEndpointsApiExplorer();

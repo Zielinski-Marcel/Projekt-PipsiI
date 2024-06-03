@@ -5,7 +5,7 @@ using PPSI.Nowy_folder;
 using PPSI3.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
-using PPSI3.ExtraData;
+using PPSI3.ViewModels;
 namespace PPSI3.Controllers;
 
 public static class ChampionCounterEndpoints
@@ -19,7 +19,7 @@ public static class ChampionCounterEndpoints
             var ChampionsAtributes = await db.ChampionsAtribute.ToListAsync();
             var Champions = await db.Champions.ToListAsync();
             var ChampionsRoles = await db.ChampionsRole.ToListAsync();
-            List<ChampionsMerge> Champs = ChampionsMerge.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
+            List<ChampionsListViewModel> Champs = ChampionsListViewModel.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
             Champs = ChampionsAtribute.RoleFilter(Champs, Role);
             ChampionsAtribute enemyLaner = ChampionsAtribute.getChampionsAtributeById(Champion.getChampionIdByName(name, Champions), ChampionsAtributes);
 
