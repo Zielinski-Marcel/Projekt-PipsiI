@@ -188,6 +188,9 @@ namespace PPSI3.Migrations
                     b.Property<int>("Deaths")
                         .HasColumnType("int");
 
+                    b.Property<int>("EquipmentId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Gold")
                         .HasColumnType("int");
 

@@ -18,6 +18,7 @@ namespace PPSI3.Controllers
 
         public IActionResult Index()
         {
+         
             var Champions = context.Champions.ToList();
             return View(Champions);
         }

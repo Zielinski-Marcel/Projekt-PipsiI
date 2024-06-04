@@ -21,7 +21,19 @@ namespace PPSI3.Controllers
         // GET: MatchHistoryController
         public ActionResult Index()
         {
-            return View();
+            var Champions = context.Champions.ToList();
+            var Teams = context.Teams.ToList();
+            var Maps = context.Maps.ToList();
+            var Players = context.Players.ToList();
+            var GameModes = context.GameModes.ToList();
+            var Summoners = context.Summoners.ToList();
+            var Matches = context.Matches.ToList();
+            var Equipments = context.Equipment.ToList();
+
+            var ViewModel = new MatchViewModel(1, Matches, Teams, Players, GameModes, Champions, Summoners, Maps, Equipments);
+
+
+            return View(ViewModel);
         }
 
         [HttpPost]
@@ -34,8 +46,9 @@ namespace PPSI3.Controllers
             var GameModes=context.GameModes.ToList();
             var Summoners=context.Summoners.ToList();
             var Matches=context.Matches.ToList();
+            var Equipments=context.Equipment.ToList();
 
-            var ViewModel = new MatchViewModel(matchId, Matches ,Teams, Players, GameModes, Champions, Summoners, Maps);
+            var ViewModel = new MatchViewModel(matchId, Matches ,Teams, Players, GameModes, Champions, Summoners, Maps, Equipments);
            
 
             return View(ViewModel);

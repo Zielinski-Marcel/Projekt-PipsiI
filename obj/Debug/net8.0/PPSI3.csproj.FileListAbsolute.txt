@@ -1046,3 +1046,4 @@ C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\PPSI3.pdb
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\PPSI3.genruntimeconfig.cache
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\ref\PPSI3.dll
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\ChampionsList\Index.cshtml.rz.scp.css
+C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\MatchHistory\Index.cshtml.rz.scp.css

@@ -53,7 +53,7 @@ namespace PPSI3.Controllers.EntityFramework
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,MatchId,TeamId,ChampionId,SummonerId,Kills,Deaths,Asists,Cs,Gold")] Player player)
+        public async Task<IActionResult> Create([Bind("Id,MatchId,TeamId,ChampionId,SummonerId,EquipmentId,Kills,Deaths,Asists,Cs,Gold")] Player player)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace PPSI3.Controllers.EntityFramework
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,MatchId,TeamId,ChampionId,SummonerId,Kills,Deaths,Asists,Cs,Gold")] Player player)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,MatchId,TeamId,ChampionId,SummonerId,EquipmentId,Kills,Deaths,Asists,Cs,Gold")] Player player)
         {
             if (id != player.Id)
             {

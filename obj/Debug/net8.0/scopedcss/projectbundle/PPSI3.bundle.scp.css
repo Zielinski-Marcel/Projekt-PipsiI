@@ -114,6 +114,15 @@ button.accept-policy[b-vu5m76yqoq] {
 .champ-icon:hover[b-v4ccfsvnmc]{
     transform: scale(1.2);
 }
+/* _content/PPSI3/Views/MatchHistory/Index.cshtml.rz.scp.css */
+.card-title[b-kjilyl2yjt] {
+    font-weight: bold;
+}
+
+.table img[b-kjilyl2yjt] {
+    width: 30px;
+    height: 30px;
+}
 /* _content/PPSI3/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

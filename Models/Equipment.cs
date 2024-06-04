@@ -1,4 +1,5 @@
-﻿namespace PPSI.Nowy_folder
+﻿
+namespace PPSI.Nowy_folder
 {
     public class Equipment
     {
@@ -11,5 +12,11 @@
         public int BootsId { get; set; }
         public int TrinketId { get; set; }
         public int PlayerId { get; set; }
+
+        internal static Equipment getEquipmentsById(int equipmentId, List<Equipment> equipments)
+        {
+            foreach (Equipment equip in equipments) { if (equip.Id == equipmentId) return equip; }
+            throw new NotImplementedException();
+        }
     }
 }
