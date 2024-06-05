@@ -1,6 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using PPSI.Nowy_folder;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using PPSI.Models;
 using PPSI3.Controllers.Endpoints;
+using PPSI3.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,12 @@ builder.Services.AddDbContext<DB>(options =>
 {
     options.UseSqlServer("Server=DESKTOP-7UAFIFA\\SQLEXPRESS;Database=PPSIDB2;Trusted_Connection=True;TrustServerCertificate=True;");
 });
+builder.Services.AddIdentity<Summoner, IdentityRole>()
+    .AddEntityFrameworkStores<DB>();
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+       .AddCookie();
 
 builder.Services.AddEndpointsApiExplorer();
 

@@ -1,12 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.OpenApi;
-using PPSI.Nowy_folder;
 using PPSI3.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using PPSI3.ExtraData;
 using PPSI3.ViewModels;
+using PPSI3.Data;
+using PPSI.Models;
 namespace PPSI3.Controllers.Endpoints;
 
 public static class ChampionCounterEndpoints

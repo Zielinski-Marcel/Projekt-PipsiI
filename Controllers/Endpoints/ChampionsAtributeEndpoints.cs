@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.OpenApi;
-using PPSI.Nowy_folder;
 using PPSI3.Models;
+using PPSI3.Data;
 namespace PPSI3.Controllers.Endpoints;
 
 public static class ChampionsAtributeEndpoints

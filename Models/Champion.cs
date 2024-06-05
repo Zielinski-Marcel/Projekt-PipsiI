@@ -1,7 +1,6 @@
-﻿using PPSI3.Models;
-using static System.Net.WebRequestMethods;
+﻿using static System.Net.WebRequestMethods;
 
-namespace PPSI.Nowy_folder
+namespace PPSI.Models
 {
     public class Champion
     {

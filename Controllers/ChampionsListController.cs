@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PPSI.Nowy_folder;
+using PPSI3.Data;
 using PPSI3.ViewModels;
+using PPSI.Models;
 
 namespace PPSI3.Controllers
 {

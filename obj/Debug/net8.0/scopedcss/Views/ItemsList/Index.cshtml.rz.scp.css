@@ -1,0 +1,56 @@
+.champ-icon[b-ji7s7oob2z] {
+    height: auto;
+    width: 180px;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .champ-icon:hover[b-ji7s7oob2z] {
+        transform: scale(1.2);
+    }
+
+body[b-ji7s7oob2z] {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper[b-ji7s7oob2z] {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+body[b-ji7s7oob2z] {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body[b-ji7s7oob2z]::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.content-wrapper[b-ji7s7oob2z] {
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+

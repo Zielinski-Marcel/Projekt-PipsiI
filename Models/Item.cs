@@ -1,4 +1,4 @@
-﻿namespace PPSI.Nowy_folder
+﻿namespace PPSI.Models
 {
     public class Item
     {

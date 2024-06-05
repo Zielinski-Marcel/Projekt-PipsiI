@@ -1,0 +1,30 @@
+namespace PPSI3.Views.Home
+.champ-icon[b-h5q8u75aal] {
+    height: auto;
+    width: 270px;
+    padding: 30px;
+}
+
+.checkmark[b-h5q8u75aal] {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    left: -9999px; /* Moves the input out of view */
+}
+
+.checkmarkPhoto img[b-h5q8u75aal] {
+    cursor: pointer;
+    opacity: 70%;
+    width: 35%;
+    height: auto;
+    transition: all 0.15s ease;
+}
+
+.checkmark:checked + .checkmarkPhoto img[b-h5q8u75aal] {
+    opacity: 120%;
+    transform: scale(1.4);
+}
+
+.checkmarkPhoto img:hover[b-h5q8u75aal] {
+    transform: scale(1.4);
+}

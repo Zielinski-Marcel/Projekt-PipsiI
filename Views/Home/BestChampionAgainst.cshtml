@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Champion Counters";
+    string backgroundImage =  Model.SelectedChampion.BackgrundPhoto;
+}
+<style>
+    body {
+        background-image: url('@backgroundImage');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('@backgroundImage');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(10px);
+            z-index: -1;
+        }
+</style>
+<main>
+    <body>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light text-white">
+                        POROCOUNTER
+                    </h1>
+                    <br />
+                    <a asp-action="Index" class="btn btn-secondary" style="background-color: rgba(0, 0, 0, 0.7);color: white;">Find another counter</a>
+
+            </div>
+
+        </div>
+            <p class="lead text-body-secondary text-white">Best champions against @Model.SelectedChampion?.Name.</p>
+
+        <div class="album py-5 bg-body-tertiary">
+<br />
+
+            <div class="center container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        @foreach (var champion in Model.BestChampions)
+                        {
+                        <div class="col" style="min-width:300px; min-height:auto;">
+                                <div class="card shadow-sm" style="background-color: rgba(0, 0, 0, 0.7); outline: 2px solid black; color: white;">
+                                <div class="text-center" >
+                                    <img src="@champion.Photo" class="champ-icon" />
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><h3>@champion.Name</h3></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
+</main>
+
+    

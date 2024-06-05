@@ -1034,8 +1034,6 @@ C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\staticwebassets\msbuild.
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PPSI3.props
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\ChampionCounter\ChampionCounters.cshtml.rz.scp.css
-C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\ChampionCounter\Index.cshtml.rz.scp.css
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\bundle\PPSI3.styles.css
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\projectbundle\PPSI3.bundle.scp.css
@@ -1046,4 +1044,12 @@ C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\PPSI3.pdb
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\PPSI3.genruntimeconfig.cache
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\ref\PPSI3.dll
 C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\ChampionsList\Index.cshtml.rz.scp.css
-C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\MatchHistory\Index.cshtml.rz.scp.css
+C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\Home\index.cshtml.rz.scp.css
+C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\Home\BestChampionAgainst.cshtml.rz.scp.css
+C:\Users\Marcel\Desktop\Projekt-PipsiI\obj\Debug\net8.0\scopedcss\Views\ItemsList\Index.cshtml.rz.scp.css
+C:\Users\Marcel\Desktop\Projekt-PipsiI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Marcel\Desktop\Projekt-PipsiI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Marcel\Desktop\Projekt-PipsiI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Marcel\Desktop\Projekt-PipsiI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Marcel\Desktop\Projekt-PipsiI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Marcel\Desktop\Projekt-PipsiI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
