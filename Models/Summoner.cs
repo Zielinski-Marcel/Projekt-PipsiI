@@ -1,10 +1,8 @@
-﻿
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 
-namespace PPSI.Models
+namespace PoroCounter2.Models
 {
     public class Summoner : IdentityUser
     {
-        public DateOnly BirthDate { get; set; }
     }
 }

@@ -1,41 +1,34 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.OpenApi;
-using PPSI3.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Data;
-using PPSI3.ExtraData;
-using PPSI3.ViewModels;
-using PPSI3.Data;
-using PPSI.Models;
-namespace PPSI3.Controllers.Endpoints;
+using PoroCounter2.Data;
+using PoroCounter2.Models;
+using PoroCounter2.ViewModels;
 
-public static class ChampionCounterEndpoints
+
+namespace PoroCounter2.Controllers.Endpoints
 {
-    public static void MapChampionCounterEndpoints(this IEndpointRouteBuilder routes)
+    public static class ChampionCounterEndpoints
     {
-        var group = routes.MapGroup("/api/ChampionCounter").WithTags(nameof(ChampionsAtribute));
-
-        group.MapGet("/{name}/{role}", async (string name, string Role, DB db) =>
+        public static void MapChampionCounterEndpoints(this IEndpointRouteBuilder routes)
         {
-            var ChampionsAtributes = await db.ChampionsAtribute.ToListAsync();
-            var Champions = await db.Champions.ToListAsync();
-            var ChampionsRoles = await db.ChampionsRole.ToListAsync();
-            List<ChampionsListViewModel> Champs = ChampionsListViewModel.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
-            Champs = ChampionsAtribute.RoleFilter(Champs, Role);
-            ChampionsAtribute enemyLaner = ChampionsAtribute.getChampionsAtributeById(Champion.getChampionIdByName(name, Champions), ChampionsAtributes);
+            var group = routes.MapGroup("/api/ChampionCounter").WithTags(nameof(ChampionsAtribute));
 
-            List<Champion> BestChampions = ChampionsAtribute.SelectChampionAgainstLaner(enemyLaner, Champs, Champions);
+            group.MapGet("/{name}/{role}", async (string name, string Role, DB db) =>
+            {
+                var ChampionsAtributes = await db.ChampionsAtribute.ToListAsync();
+                var Champions = await db.Champions.ToListAsync();
+                var ChampionsRoles = await db.ChampionsRole.ToListAsync();
+                List<ChampionsListViewModel> Champs = ChampionsListViewModel.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
+                Champs = ChampionsAtribute.RoleFilter(Champs, Role);
+                ChampionsAtribute enemyLaner = ChampionsAtribute.getChampionsAtributeById(Champion.getChampionIdByName(name, Champions), ChampionsAtributes);
 
-
-            return BestChampions;
-
-        })
-       .WithName("ChampionCounters")
-       .WithOpenApi();
+                List<Champion> BestChampions = ChampionsAtribute.SelectChampionAgainstLaner(enemyLaner, Champs, Champions);
 
 
+                return BestChampions;
 
-
+            })
+           .WithName("ChampionCounters")
+           .WithOpenApi();
+        }
     }
 }

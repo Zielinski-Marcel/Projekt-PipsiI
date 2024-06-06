@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PPSI3.Data;
-using PPSI3.ViewModels;
-using PPSI.Models;
+using PoroCounter2.Data;
+using PoroCounter2.ViewModels;
 
-namespace PPSI3.Controllers
+namespace PoroCounter2.Controllers
 {
     public class ChampionsListController : Controller
     {

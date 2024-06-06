@@ -1,6 +1,6 @@
-﻿using PPSI.Models;
+﻿using PoroCounter2.Models;
 
-namespace PPSI3.ViewModels
+namespace PoroCounter2.ViewModels
 {
     public class BestChampionAgainst
     {

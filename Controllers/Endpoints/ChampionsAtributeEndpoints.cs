@@ -1,34 +1,35 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.OpenApi;
-using PPSI3.Models;
-using PPSI3.Data;
-namespace PPSI3.Controllers.Endpoints;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
+using PoroCounter2.Data;
+using PoroCounter2.Models;
 
-public static class ChampionsAtributeEndpoints
+namespace PoroCounter2.Controllers.Endpoints
 {
-    public static void MapChampionsAtributeEndpoints(this IEndpointRouteBuilder routes)
+    public static class ChampionsAtributeEndpoints
     {
-        var group = routes.MapGroup("/api/ChampionsAtribute").WithTags(nameof(ChampionsAtribute));
-
-        group.MapGet("/", async (DB db) =>
+        public static void MapChampionsAtributeEndpoints(this IEndpointRouteBuilder routes)
         {
-            return await db.ChampionsAtribute.ToListAsync();
-        })
-        .WithName("GetAllChampionsAtributes")
-        .WithOpenApi();
+            var group = routes.MapGroup("/api/ChampionsAtribute").WithTags(nameof(ChampionsAtribute));
 
-        group.MapGet("/{id}", async Task<Results<Ok<ChampionsAtribute>, NotFound>> (int id, DB db) =>
-        {
-            return await db.ChampionsAtribute.AsNoTracking()
-                .FirstOrDefaultAsync(model => model.Id == id)
-                is ChampionsAtribute model
-                    ? TypedResults.Ok(model)
-                    : TypedResults.NotFound();
-        })
-        .WithName("GetChampionsAtributeById")
-        .WithOpenApi();
+            group.MapGet("/", async (DB db) =>
+            {
+                return await db.ChampionsAtribute.ToListAsync();
+            })
+            .WithName("GetAllChampionsAtributes")
+            .WithOpenApi();
+
+            group.MapGet("/{id}", async Task<Results<Ok<ChampionsAtribute>, NotFound>> (int id, DB db) =>
+            {
+                return await db.ChampionsAtribute.AsNoTracking()
+                    .FirstOrDefaultAsync(model => model.Id == id)
+                    is ChampionsAtribute model
+                        ? TypedResults.Ok(model)
+                        : TypedResults.NotFound();
+            })
+            .WithName("GetChampionsAtributeById")
+            .WithOpenApi();
 
 
+        }
     }
 }

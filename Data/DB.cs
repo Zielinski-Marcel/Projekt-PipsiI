@@ -1,11 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata.Ecma335;
-using PPSI3.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using PPSI.Models;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using PoroCounter2.Models;
 
-
-namespace PPSI3.Data
+namespace PoroCounter2.Data
 {
     public class DB : IdentityDbContext<Summoner>
     {
@@ -28,5 +25,4 @@ namespace PPSI3.Data
         }
 
     }
-
 }

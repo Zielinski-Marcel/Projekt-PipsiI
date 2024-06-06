@@ -1,13 +1,11 @@
-﻿using static System.Net.WebRequestMethods;
-
-namespace PPSI.Models
+﻿namespace PoroCounter2.Models
 {
     public class Champion
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string BackgrundPhoto { get; set; }
-        public string Photo {  get; set; }
+        public string Photo { get; set; }
 
         public static Champion getChampionByName(string name, List<Champion> championList)
         {
@@ -51,3 +49,4 @@ namespace PPSI.Models
 
     }
 }
+

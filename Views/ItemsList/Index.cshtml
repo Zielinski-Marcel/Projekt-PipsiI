@@ -1,7 +1,61 @@
 ﻿@{
     ViewData["Title"] = "Index";
 }
+<style>
+    .champ-icon {
+        height: auto;
+        width: 180px;
+        padding: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
 
+        .champ-icon:hover {
+            transform: scale(1.2);
+        }
+
+    body {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content-wrapper {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    body {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+    .content-wrapper {
+        padding: 20px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+    }
+</style>
 <main>
     <body>
         <section class="py-5 text-center container">
@@ -19,8 +73,8 @@
 
                 <div class="center container">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-5" style="background-color: rgba(0, 0, 0, 0.7);">
-                            @foreach (var champion in Model)
-                            {
+                        @foreach (var champion in Model)
+                        {
                             <div class="col" style="min-width:200px; min-height:auto; max-width:300px;max-height:auto">
                                 <div class="card shadow-sm" style="background-color: rgba(0, 0, 0, 0); color: white;">
                                     <div class="text-center">
@@ -33,7 +87,7 @@
                                     </div>
                                 </div>
                             </div>
-                            }
+                        }
                     </div>
                 </div>
             </div>

@@ -1,9 +1,6 @@
-﻿
-using PPSI.Models;
-using PPSI3.Models;
-using System.Collections.Generic;
+﻿using PoroCounter2.Models;
 
-namespace PPSI3.ViewModels
+namespace PoroCounter2.ViewModels
 {
     public class ChampionsListViewModel
     {
@@ -48,7 +45,7 @@ namespace PPSI3.ViewModels
         {
             Id = champion.Id;
             Name = champion.Name;
-            Photo= champion.Photo;
+            Photo = champion.Photo;
             Top = championsRole.Top;
             Jungle = championsRole.Jungle;
             Mid = championsRole.Mid;

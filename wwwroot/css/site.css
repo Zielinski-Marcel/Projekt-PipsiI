@@ -1,20 +1,21 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    overflow-y: auto;
+    min-height: 100%;
 }
 
 body {
@@ -24,30 +25,34 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 100vh;
     margin: 0;
     padding: 0;
     color: white !important;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    overflow-y: auto;
+    min-height: 100vh;
 }
+
 table {
     background-color: rgba(0, 0, 0, 0.7);
     outline: 2px solid black;
     color: white !important;
 }
+
 footer {
     background-color: rgba(0, 0, 0, 0.7);
     outline: 2px solid black;
     color: white !important;
 }
+
 header {
     background-color: black;
     opacity: 70%;
     outline: 2px solid black;
     color: white !important;
 }
+
 a {
     text-decoration: none !important;
-    color:white;
-
+    color: white;
 }

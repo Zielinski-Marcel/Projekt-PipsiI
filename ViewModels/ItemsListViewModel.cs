@@ -1,7 +1,6 @@
-﻿using PPSI.Models;
-using PPSI3.Models;
+﻿using PoroCounter2.Models;
 
-namespace PPSI3.ViewModels
+namespace PoroCounter2.ViewModels
 {
     public class ItemsListViewModel
     {

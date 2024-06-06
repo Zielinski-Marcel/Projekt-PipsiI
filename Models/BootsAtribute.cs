@@ -1,9 +1,9 @@
-﻿namespace PPSI3.Models
+﻿namespace PoroCounter2.Models
 {
     public class BootsAtribute
     {
         public int Id { get; set; }
-        public int BootsId   { get; set; }
+        public int BootsId { get; set; }
         public bool Heals { get; set; }
         public bool Shield { get; set; }
         public bool Poke { get; set; }

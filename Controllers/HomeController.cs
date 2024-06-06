@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using PPSI.Models;
-using PPSI3.Data;
-using PPSI3.Models;
-using PPSI3.ViewModels;
+using PoroCounter2.Data;
+using PoroCounter2.Models;
+using PoroCounter2.ViewModels;
 using System.Diagnostics;
 
-namespace PPSI3.Controllers
+namespace PoroCounter2.Controllers
 {
     public class HomeController : Controller
     {
@@ -18,8 +17,9 @@ namespace PPSI3.Controllers
         }
 
         public IActionResult Index()
-        {
-
+        {  
+            _logger.LogInformation("Home page accessed");
+           
             var Champions = context.Champions.ToList();
             return View(Champions);
         }
@@ -42,7 +42,7 @@ namespace PPSI3.Controllers
                 BestChampions = ChampionsAtribute.SelectChampionAgainstLaner(enemyLaner, Champs, Champions),
                 SelectedChampion = Champion.getChampionByName(name, Champions)
             };
-
+            _logger.LogInformation("Counter for " + name + " searched!");
             return View(ViewModel);
         }
 
@@ -58,6 +58,7 @@ namespace PPSI3.Controllers
 
         public IActionResult Privacy()
         {
+            _logger.LogInformation("Privacy page accessed");
             return View();
         }
 

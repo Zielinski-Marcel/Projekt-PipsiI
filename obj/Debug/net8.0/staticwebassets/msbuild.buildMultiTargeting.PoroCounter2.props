@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PoroCounter2.props" />
+</Project>

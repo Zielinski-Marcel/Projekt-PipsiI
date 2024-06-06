@@ -1,20 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PPSI3.Data;
-using PPSI3.ViewModels;
+using PoroCounter2.Data;
+using PoroCounter2.ViewModels;
 
-namespace PPSI3.Controllers
+namespace PoroCounter2.Controllers
 {
     public class ItemsListController : Controller
     {
-       
-        
-            private readonly DB context;
-            public ItemsListController(DB context)
-            {
-                this.context = context;
-            }  
-    
-    public IActionResult Index()
+        private readonly DB context;
+        public ItemsListController(DB context)
+        {
+            this.context = context;
+        }
+
+        public IActionResult Index()
         {
             var ItemsAtributes = context.ItemsAtributes.ToList();
             var Items = context.Items.ToList();

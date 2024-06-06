@@ -1,11 +1,8 @@
-﻿using Humanizer;
-using Microsoft.Identity.Client;
-using PPSI.Models;
-using PPSI3.ExtraData;
-using PPSI3.ViewModels;
-using System.Security.Cryptography;
+﻿using PoroCounter2.ViewModels;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.OpenApi;
 
-namespace PPSI3.Models
+namespace PoroCounter2.Models
 {
     public class ChampionsAtribute
     {
@@ -40,8 +37,8 @@ namespace PPSI3.Models
             foreach (ChampionsAtribute champion in championList)
             {
                 if (champion.ChampionId == id)
-                    return champion; 
-                  
+                    return champion;
+
             }
             return null;
         }
@@ -80,11 +77,11 @@ namespace PPSI3.Models
             return filteredChampions;
         }
 
-        public static List<Champion> SelectChampionAgainstLaner(ChampionsAtribute enemyLaner, List <ChampionsListViewModel> Champions, List <Champion> champions)
+        public static List<Champion> SelectChampionAgainstLaner(ChampionsAtribute enemyLaner, List<ChampionsListViewModel> Champions, List<Champion> champions)
         {
             int maxScore = 0;
             Champion bestChampion;
-            List<Champion> bestChampions= new List<Champion>();
+            List<Champion> bestChampions = new List<Champion>();
             foreach (ChampionsListViewModel champion in Champions)
             {
 
@@ -158,13 +155,16 @@ namespace PPSI3.Models
                         bestChampion = Champion.getChampionById(champion.Id, champions);
                         bestChampions.Add(bestChampion);
                     }
-                    
+
                 }
             }
-            
+
 
 
             return bestChampions;
         }
     }
+
+
+
 }

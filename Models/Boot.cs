@@ -1,4 +1,4 @@
-﻿namespace PPSI3.Models
+﻿namespace PoroCounter2.Models
 {
     public class Boot
     {
