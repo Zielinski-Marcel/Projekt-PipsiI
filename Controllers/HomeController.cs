@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using PoroCounter2.Data;
 using PoroCounter2.Models;
@@ -15,7 +16,7 @@ namespace PoroCounter2.Controllers
             _logger = logger;
             this.context = context;
         }
-
+        
         public IActionResult Index()
         {  
             _logger.LogInformation("Home page accessed");

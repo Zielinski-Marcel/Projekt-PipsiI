@@ -1,6 +1,9 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer;
+@{
     ViewData["Title"] = "Index";
 }
+
 <style>
     .champ-icon {
         height: auto;
@@ -40,7 +43,7 @@
                 <h1 class="fw-light text-white">
                     POROCOUNTER
                 </h1>
-                <h3>Choose a role</h3>
+                <h3>@Localizer["RoleSelect"]</h3>
                 <br />
                 <form asp-action="BestChampionAgainst" method="post" id="championForm" autocomplete="off" onsubmit="return false;">
                     <div class="mb-3 position-relative" style="display:flex; align-items:center !important; background-color: rgba(0, 0, 0, 0.7); padding-top:10px; padding-bottom:10px; border-radius: 10px;">
@@ -76,7 +79,7 @@
                         </div>
                     </div>
                     <div class="mb-3 position-relative" style="display:none;" id="championField">
-                        <input type="text" class="form-control" name="name" id="championName" placeholder="Select enemy Champion" readonly onfocus="this.removeAttribute('readonly');" oninput="showSuggestions(this.value)">
+                        <input type="text" class="form-control" name="name" id="championName" placeholder="@Localizer["ChampionSelect"]" readonly onfocus="this.removeAttribute('readonly');" oninput="showSuggestions(this.value)">
                         <div id="suggestions" class="list-group position-absolute w-100 overflow-auto" style="z-index: 1000; max-height: 200px; text-shadow:none; background-color: rgba(0, 0, 0, 0.7);"></div>
                         <style>
                             #suggestions .list-group-item {

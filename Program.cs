@@ -1,12 +1,28 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Razor;
 using PoroCounter2.Controllers.Endpoints;
 using PoroCounter2.Data;
 using PoroCounter2.Services;
 using Serilog;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Dodaj usługi lokalizacji
+builder.Services.AddMvc().AddMvcLocalization(LanguageViewLocationExpanderFormat.Suffix);
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+builder.Services.Configure<RequestLocalizationOptions>(options=>
+{
+    var supportedCultures = new[]
+    {
+        new CultureInfo("en"),
+        new CultureInfo("pl")
+    };
+    options.DefaultRequestCulture=new ("en");
+    options.SupportedCultures=supportedCultures;
+});
 // Konfiguracja Serilog
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -20,6 +36,8 @@ builder.Services.AddDbContext<DB>(options =>
 {
     options.UseSqlServer("Server=DESKTOP-7UAFIFA\\SQLEXPRESS;Database=PPSIDB2;Trusted_Connection=True;TrustServerCertificate=True;");
 });
+
+
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
@@ -47,6 +65,9 @@ else
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
+
+
+app.UseRequestLocalization();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

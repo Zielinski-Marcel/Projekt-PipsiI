@@ -1,4 +1,6 @@
 ﻿@model PoroCounter2.Models.PlatformData
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer;
 @{
     ViewData["Title"] = "Index";
 }
@@ -8,65 +10,21 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="card mt-5" style="background-color: rgba(0,0,0,0.7)">
-                    <div class="card-header"><h2>LoL Status</h2></div>
+                    <div class="card-header"><h2>@Localizer["LolWorking"]</h2></div>
                     <div class="card-body">
-                        <h3> Server Name</h3>
+                        <h3> @Localizer["ServerName"]</h3>
                         <p>@Model.Name (@Model.Id)</p>
 
-    <h3>Server Status</h3>
+    <h3>@Localizer["ServerStatus"]</h3>
     @if (Model.Maintenances != null && Model.Maintenances.Any())
     {
-        <p>Riot is having a BBQ party rn. Stay tune.</p>
+        <p>@Localizer["RiotBBQ"]</p>
     }
     else
     {
-        <p>The server is up and running smoothly.</p>
+        <p>@Localizer["ServerUp"]</p>
     }
 
-    <h3>Incidents</h3>
-    @if (Model.Incidents != null && Model.Incidents.Count > 0)
-    {
-        <ul>
-            @foreach (var incident in Model.Incidents)
-            {
-                <li>
-                    <p><strong>Severity:</strong> @incident.IncidentSeverity</p>
-                    <p><strong>Platforms:</strong> @string.Join(", ", incident.Platforms)</p>
-                    <p><strong>Created At:</strong> @incident.CreatedAt</p>
-                    <p><strong>Updated At:</strong> @incident.UpdatedAt</p>
-                    <p><strong>Titles:</strong></p>
-                    <ul>
-                        @foreach (var title in incident.Titles)
-                        {
-<li><strong>@title.Locale:</strong> @title.Content</li>
-                        }
-                    </ul>
-                    <p><strong>Updates:</strong></p>
-                    <ul>
-                        @foreach (var update in incident.Updates)
-                        {
-                            <li>
-                                <p><strong>Author:</strong> @update.Author</p>
-                                <p><strong>Created At:</strong> @update.CreatedAt</p>
-                                <p><strong>Updated At:</strong> @update.UpdatedAt</p>
-                                <p><strong>Content:</strong></p>
-                                <ul>
-                                    @foreach (var translation in update.Translations)
-                                    {
-                                        <li><strong>@translation.Locale:</strong> @translation.Content</li>
-                                    }
-                                </ul>
-                            </li>
-                        }
-                    </ul>
-                </li>
-            }
-        </ul>
-    }
-    else
-    {
-        <p>No incidents reported.</p>
-    }
                     </div>
                 </div>
             </div>

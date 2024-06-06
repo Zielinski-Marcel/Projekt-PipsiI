@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer;
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -20,18 +22,25 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="ChampionsList" asp-action="Index">Champions List</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="ChampionsList" asp-action="Index">@Localizer["ChampionsList"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="ItemsList" asp-action="Index">Items List</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="ItemsList" asp-action="Index">@Localizer["ItemsList"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="LolStatus" asp-action="Index">League of Legends Server</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="LolStatus" asp-action="Index">@Localizer["Lolserver"]</a>
                         </li>
-
                     </ul>
 
                     <partial name="_LoginPartial" />
+
+                    <form asp-controller="Language" asp-action="SetLanguage" method="post" class="d-inline">
+                        <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+                        <select name="culture" onchange="this.form.submit()" class="form-select form-select-sm">
+                            <option value="en">English</option>
+                            <option value="pl">Polski</option>
+                        </select>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -44,7 +53,7 @@
 
     <footer class="footer text-muted">
         <div class="container text-white">
-            &copy; 2024 - POROCOUNTER - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - POROCOUNTER - <a asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["Privacy"]</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

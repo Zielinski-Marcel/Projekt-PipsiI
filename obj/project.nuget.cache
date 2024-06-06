@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9hJjWMhm+sywM8aSOyDpzC4xtunhsf4yMuGioOgCVgXdBO+Z52CmXi4eEBBld+E5P6ri+udKsTHRuISH8lfNkw==",
+  "dgSpecHash": "AIeOV2oySn0LuUgQpp8oXXN7guOKE4PBYXVrMV8nH8isqqmfiruomVDFwaCecnkAMavawoYyIFpu8hSvSjYB7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Marcel\\Desktop\\PoroCounter2\\PoroCounter2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marcel\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Marcel\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
