@@ -28,23 +28,27 @@ namespace PoroCounter2.Controllers
         [HttpPost]
         public IActionResult BestChampionAgainst(string name, string Role)
         {
-            //DB
-            var ChampionsAtributes = context.ChampionsAtribute.ToList();
-            var Champions = context.Champions.ToList();
-            var ChampionsRoles = context.ChampionsRole.ToList();
-            //MergeDB
-            List<ChampionsListViewModel> Champs = ChampionsListViewModel.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
-            //Filter
-            Champs = ChampionsAtribute.RoleFilter(Champs, Role);
-
-            ChampionsAtribute enemyLaner = ChampionsAtribute.getChampionsAtributeById(Champion.getChampionIdByName(name, Champions), ChampionsAtributes);
-            var ViewModel = new BestChampionAgainst
+            try
             {
-                BestChampions = ChampionsAtribute.SelectChampionAgainstLaner(enemyLaner, Champs, Champions),
-                SelectedChampion = Champion.getChampionByName(name, Champions)
-            };
-            _logger.LogInformation("Counter for " + name + " searched!");
-            return View(ViewModel);
+                //DB
+                var ChampionsAtributes = context.ChampionsAtribute.ToList();
+                var Champions = context.Champions.ToList();
+                var ChampionsRoles = context.ChampionsRole.ToList();
+                //MergeDB
+                List<ChampionsListViewModel> Champs = ChampionsListViewModel.GenerateListOfChampions(Champions, ChampionsAtributes, ChampionsRoles);
+                //Filter
+                Champs = ChampionsAtribute.RoleFilter(Champs, Role);
+
+                ChampionsAtribute enemyLaner = ChampionsAtribute.getChampionsAtributeById(Champion.getChampionIdByName(name, Champions), ChampionsAtributes);
+                var ViewModel = new BestChampionAgainst
+                {
+                    BestChampions = ChampionsAtribute.SelectChampionAgainstLaner(enemyLaner, Champs, Champions),
+                    SelectedChampion = Champion.getChampionByName(name, Champions)
+                };
+                _logger.LogInformation("Counter for " + name + " searched!");
+                return View(ViewModel);
+            }
+            catch (Exception ex) { return RedirectToAction("Error", "Home"); }
         }
 
         [HttpGet]

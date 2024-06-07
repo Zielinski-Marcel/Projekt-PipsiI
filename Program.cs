@@ -49,6 +49,8 @@ builder.Services.AddDbContext<DB>(options =>
 // Mailing
 builder.Services.AddTransient<PoroCounter2.IEmailSender, EmailSender>();
 
+//Cache
+builder.Services.AddMemoryCache();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 

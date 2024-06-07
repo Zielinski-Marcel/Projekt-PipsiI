@@ -11,13 +11,16 @@ namespace PoroCounter2.Controllers
         [HttpGet]
         public IActionResult SetLanguage(string culture)
         {
-            Response.Cookies.Append(
-                CookieRequestCultureProvider.DefaultCookieName,
-                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
-                new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
-            );
-
-            return RedirectToAction("Index", "Home");
+            try
+            {
+                Response.Cookies.Append(
+                    CookieRequestCultureProvider.DefaultCookieName,
+                    CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
+                    new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
+                );
+                return RedirectToAction("Index", "Home");
+            }
+            catch (Exception ex) { return RedirectToAction("Error", "Home"); }
         }
     }
 

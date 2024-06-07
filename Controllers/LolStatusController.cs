@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PoroCounter2.Models;
 using PoroCounter2.Services;
+using System.Composition;
 
 namespace PoroCounter2.Controllers
 {
@@ -14,8 +16,12 @@ namespace PoroCounter2.Controllers
 
         public async Task<IActionResult> IndexAsync()
         {
-            var platformData = await _lolApiService.GetPlatformDataAsync();
-            return View(platformData);
+            try
+            {
+                var platformData = await _lolApiService.GetPlatformDataAsync();
+                return View(platformData);
+            } catch (Exception ex) {return RedirectToAction("Error", "Home"); }
+
         }
     }
 }

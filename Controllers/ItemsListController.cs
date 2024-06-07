@@ -14,11 +14,14 @@ namespace PoroCounter2.Controllers
 
         public IActionResult Index()
         {
+            try { 
             var ItemsAtributes = context.ItemsAtributes.ToList();
             var Items = context.Items.ToList();
             //MergeDB
             List<ItemsListViewModel> ItemsList = ItemsListViewModel.GenerateListOfItems(Items, ItemsAtributes);
             return View(ItemsList);
+            }
+            catch (Exception ex) { return RedirectToAction("Error", "Home"); }
         }
     }
 }

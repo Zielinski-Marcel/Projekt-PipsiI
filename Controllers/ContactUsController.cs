@@ -20,19 +20,23 @@ namespace PoroCounter2.Controllers
         [HttpPost]
         public async Task<IActionResult> SentAsync(string email)
         {
-            if (string.IsNullOrEmpty(email))
+            try
             {
-                ModelState.AddModelError("", "Email is required.");
-                return View("Index");
+                if (string.IsNullOrEmpty(email))
+                {
+                    ModelState.AddModelError("", "Email is required.");
+                    return View("Index");
+                }
+
+                var subject = "PoroCounter Contact Us";
+                var message = "Hey! Looks like you want to contact us! One of our staff members will try to get in touch with you as soon as possible. You can reply to this message to provide information about your reason for contacting us.";
+
+                await emailSender.SendEmailAsync(email, subject, message);
+                await emailSender.SendEmailToYourself(email);
+                ViewBag.Email = email;
+                return View();
             }
-
-            var subject = "PoroCounter Contact Us";
-            var message = "Hey! Looks like you want to contact us! One of our staff members will try to get in touch with you as soon as possible. You can reply to this message to provide information about your reason for contacting us.";
-
-            await emailSender.SendEmailAsync(email, subject, message);
-            await emailSender.SendEmailToYourself(email);
-            ViewBag.Email = email;
-            return View();
+            catch (Exception ex) { return RedirectToAction("Error", "Home"); }
         }
     }
 }
