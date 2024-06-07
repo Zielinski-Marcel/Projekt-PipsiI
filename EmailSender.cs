@@ -15,7 +15,7 @@ public class EmailSender : IEmailSender
         {
             EnableSsl = true,
             UseDefaultCredentials = false,
-            Credentials = new NetworkCredential("PorroCounter@outlook.com", "CounterPorro2024")//password email
+            Credentials = new NetworkCredential("PorroCounter@outlook.com", "")//password email
         };
 
         return client.SendMailAsync(
@@ -31,7 +31,7 @@ public class EmailSender : IEmailSender
         {
             EnableSsl = true,
             UseDefaultCredentials = false,
-            Credentials = new NetworkCredential("PorroCounter@outlook.com", "CounterPorro2024")//password email
+            Credentials = new NetworkCredential("PorroCounter@outlook.com", "")//password email
         };
 
         return client.SendMailAsync(
