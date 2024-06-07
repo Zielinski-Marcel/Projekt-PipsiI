@@ -117,25 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChampionsList" xml:space="preserve">
-    <value>Lista Bohaterów</value>
+  <data name="BackHome" xml:space="preserve">
+    <value>Back to Home</value>
   </data>
-  <data name="ContactUs" xml:space="preserve">
-    <value>Skontaktuj się z nami</value>
+  <data name="EmailConfirm" xml:space="preserve">
+    <value>Thank you, Your email has been sent successfully.</value>
   </data>
-  <data name="ItemsList" xml:space="preserve">
-    <value>Lista Przedmiotów</value>
+  <data name="EmailSent" xml:space="preserve">
+    <value>Email Sent</value>
   </data>
-  <data name="Login" xml:space="preserve">
-    <value>Logowanie</value>
-  </data>
-  <data name="Lolserver" xml:space="preserve">
-    <value>League of Legends Status Serwerów</value>
-  </data>
-  <data name="Privacy" xml:space="preserve">
-    <value>Prywatność</value>
-  </data>
-  <data name="Register" xml:space="preserve">
-    <value>Rejestracja</value>
+  <data name="SpamFolder" xml:space="preserve">
+    <value>Please remember to check your spam folder.</value>
   </data>
 </root>

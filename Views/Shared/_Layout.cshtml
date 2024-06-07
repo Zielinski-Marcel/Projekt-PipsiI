@@ -1,5 +1,8 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
-@inject IViewLocalizer Localizer;
+@using Microsoft.AspNetCore.Localization
+@inject IViewLocalizer Localizer
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,13 +37,21 @@
 
                     <partial name="_LoginPartial" />
 
-                    <form asp-controller="Language" asp-action="SetLanguage" method="post" class="d-inline">
-                        <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
-                        <select name="culture" onchange="this.form.submit()" class="form-select form-select-sm">
-                            <option value="en">English</option>
-                            <option value="pl">Polski</option>
-                        </select>
-                    </form>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            @{
+                                var requestCulture = HttpContextAccessor.HttpContext.Features.Get<IRequestCultureFeature>().RequestCulture.Culture.Name;
+                                var currentCultureDisplayName ="Language";
+                            }
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                @currentCultureDisplayName
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" style=" background-color: rgba(0, 0, 0, 0.7);" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-white" href="/Language/SetLanguage?culture=en">English</a>
+                                <a class="dropdown-item text-white" href="/Language/SetLanguage?culture=pl">Polski</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -53,7 +64,7 @@
 
     <footer class="footer text-muted">
         <div class="container text-white">
-            &copy; 2024 - POROCOUNTER - <a asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["Privacy"]</a>
+            &copy; 2024 - POROCOUNTER ◦ <a asp-area="" asp-controller="Home" asp-action="Privacy">@Localizer["Privacy"]</a> ◦ <a asp-area="" asp-controller="ContactUs" asp-action="Index">@Localizer["ContactUs"]</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

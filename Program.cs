@@ -7,10 +7,11 @@ using PoroCounter2.Data;
 using PoroCounter2.Services;
 using Serilog;
 using System.Globalization;
+using PoroCounter2;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dodaj usługi lokalizacji
+// Lokalization
 builder.Services.AddMvc().AddMvcLocalization(LanguageViewLocationExpanderFormat.Suffix);
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
 builder.Services.Configure<RequestLocalizationOptions>(options=>
@@ -22,21 +23,31 @@ builder.Services.Configure<RequestLocalizationOptions>(options=>
     };
     options.DefaultRequestCulture=new ("en");
     options.SupportedCultures=supportedCultures;
+    options.SupportedUICultures = supportedCultures;
+    options.RequestCultureProviders = new List<IRequestCultureProvider>
+    {
+        new QueryStringRequestCultureProvider(),
+        new CookieRequestCultureProvider()
+    };
 });
-// Konfiguracja Serilog
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+// Logs
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
-builder.Host.UseSerilog(); // Dodaj Serilog do HostBuilder
+builder.Host.UseSerilog(); 
 
-// Add services to the container.
+// DataBase
 builder.Services.AddDbContext<DB>(options =>
 {
-    options.UseSqlServer("Server=DESKTOP-7UAFIFA\\SQLEXPRESS;Database=PPSIDB2;Trusted_Connection=True;TrustServerCertificate=True;");
+    options.UseSqlServer("Server=DESKTOP-7UAFIFA\\SQLEXPRESS;Database=PPSIDB2;Trusted_Connection=True;TrustServerCertificate=True;");//databaseconection
 });
 
+// Mailing
+builder.Services.AddTransient<PoroCounter2.IEmailSender, EmailSender>();
 
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -48,7 +59,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Rejestracja LolAPIService
+// LolAPIService
 builder.Services.AddTransient<LolAPIService>();
 builder.Services.AddHttpClient<LolAPIService>();
 var app = builder.Build();

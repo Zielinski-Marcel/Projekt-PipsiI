@@ -294,3 +294,7 @@ C:\Users\Marcel\Desktop\PoroCounter2\obj\Debug\net8.0\PoroCounter2.Resources.Vie
 C:\Users\Marcel\Desktop\PoroCounter2\obj\Debug\net8.0\PoroCounter2.Resources.Views.Shared._LoginPartial.pl.resources
 C:\Users\Marcel\Desktop\PoroCounter2\obj\Debug\net8.0\PoroCounter2.Resources.Views.LolStatus.Index.en.resources
 C:\Users\Marcel\Desktop\PoroCounter2\obj\Debug\net8.0\PoroCounter2.Resources.Views.LolStatus.Index.pl.resources
+C:\Users\Marcel\Desktop\PoroCounter2\obj\Debug\net8.0\PoroCounter2.Resources.Views.ContactUs.Index.en.resources
+C:\Users\Marcel\Desktop\PoroCounter2\obj\Debug\net8.0\PoroCounter2.Resources.Views.ContactUs.Index.pl.resources
+C:\Users\Marcel\Desktop\PoroCounter2\obj\Debug\net8.0\PoroCounter2.Resources.Views.ContactUs.Sent.en.resources
+C:\Users\Marcel\Desktop\PoroCounter2\obj\Debug\net8.0\PoroCounter2.Resources.Views.ContactUs.Sent.pl.resources

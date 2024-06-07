@@ -117,25 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChampionsList" xml:space="preserve">
-    <value>Lista Bohaterów</value>
-  </data>
   <data name="ContactUs" xml:space="preserve">
-    <value>Skontaktuj się z nami</value>
+    <value>Contact Us</value>
   </data>
-  <data name="ItemsList" xml:space="preserve">
-    <value>Lista Przedmiotów</value>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email address</value>
   </data>
-  <data name="Login" xml:space="preserve">
-    <value>Logowanie</value>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Enter your email</value>
   </data>
-  <data name="Lolserver" xml:space="preserve">
-    <value>League of Legends Status Serwerów</value>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
   </data>
-  <data name="Privacy" xml:space="preserve">
-    <value>Prywatność</value>
-  </data>
-  <data name="Register" xml:space="preserve">
-    <value>Rejestracja</value>
+  <data name="WeContact" xml:space="preserve">
+    <value>We'll get back to you as soon as possible.</value>
   </data>
 </root>
