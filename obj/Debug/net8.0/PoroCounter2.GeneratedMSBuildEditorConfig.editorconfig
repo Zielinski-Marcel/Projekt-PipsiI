@@ -17,71 +17,71 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PoroCounter2
 build_property.RootNamespace = PoroCounter2
-build_property.ProjectDir = C:\Users\Marcel\Desktop\PoroCounter2\
+build_property.ProjectDir = C:\Users\buchc\Desktop\POROCOUNTERFINAL\Projekt-PipsiI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Marcel\Desktop\PoroCounter2
+build_property.MSBuildProjectDirectory = C:\Users\buchc\Desktop\POROCOUNTERFINAL\Projekt-PipsiI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/ChampionsList/Index.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/ChampionsList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbXBpb25zTGlzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/ContactUs/Index.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/ContactUs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/ContactUs/Sent.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/ContactUs/Sent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXFNlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/Home/BestChampionAgainst.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/Home/BestChampionAgainst.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCZXN0Q2hhbXBpb25BZ2FpbnN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/Home/Index.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/Home/Privacy.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/ItemsList/Index.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/ItemsList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNMaXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/LolStatus/Index.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/LolStatus/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9sU3RhdHVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/Shared/Error.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/_ViewImports.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/_ViewStart.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/Desktop/PoroCounter2/Views/Shared/_Layout.cshtml]
+[C:/Users/buchc/Desktop/POROCOUNTERFINAL/Projekt-PipsiI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wfxaapnsck

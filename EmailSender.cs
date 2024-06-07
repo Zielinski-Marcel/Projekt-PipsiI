@@ -15,11 +15,11 @@ public class EmailSender : IEmailSender
         {
             EnableSsl = true,
             UseDefaultCredentials = false,
-            Credentials = new NetworkCredential("PoroCounterSupp@outlook.com", "")//password email
+            Credentials = new NetworkCredential("PorroCounter@outlook.com", "CounterPorro2024")//password email
         };
 
         return client.SendMailAsync(
-            new MailMessage(from: "PoroCounterSupp@outlook.com",
+            new MailMessage(from: "PorroCounter@outlook.com",
                             to: receiver,
                             subject,
                             message
@@ -31,12 +31,12 @@ public class EmailSender : IEmailSender
         {
             EnableSsl = true,
             UseDefaultCredentials = false,
-            Credentials = new NetworkCredential("PoroCounterSupp@outlook.com", "")//password email
+            Credentials = new NetworkCredential("PorroCounter@outlook.com", "CounterPorro2024")//password email
         };
 
         return client.SendMailAsync(
-        new MailMessage(from: "PoroCounterSupp@outlook.com",
-                        to: "PoroCounterSupp@outlook.com",
+        new MailMessage(from: "PorroCounter@outlook.com",
+                        to: "PorroCounter@outlook.com",
                         "CONTACT US",
                         receiver + " Contacted Us"
                         ));

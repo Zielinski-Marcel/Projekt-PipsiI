@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\views\\contactus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:views\\contactus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\services\\lolapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:services\\lolapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\resources\\views\\shared\\error.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:resources\\views\\shared\\error.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\resources\\views\\shared\\error.pl.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:resources\\views\\shared\\error.pl.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|c:\\users\\buchc\\desktop\\porocounterfinal\\projekt-pipsii\\views\\contactus\\sent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0693E9-1D61-4F71-B5D4-4968FBA47513}|PoroCounter2.csproj|solutionrelative:views\\contactus\\sent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LolAPIService.cs",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Services\\LolAPIService.cs",
+              "RelativeDocumentMoniker": "Services\\LolAPIService.cs",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Services\\LolAPIService.cs",
+              "RelativeToolTip": "Services\\LolAPIService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:27:54.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.en.resx",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Resources\\Views\\Shared\\Error.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Shared\\Error.en.resx",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Resources\\Views\\Shared\\Error.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Shared\\Error.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-07T12:24:23.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.pl.resx",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Resources\\Views\\Shared\\Error.pl.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Shared\\Error.pl.resx",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Resources\\Views\\Shared\\Error.pl.resx",
+              "RelativeToolTip": "Resources\\Views\\Shared\\Error.pl.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-07T12:21:50.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:17:08.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sent.cshtml",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\ContactUs\\Sent.cshtml",
+              "RelativeDocumentMoniker": "Views\\ContactUs\\Sent.cshtml",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\ContactUs\\Sent.cshtml",
+              "RelativeToolTip": "Views\\ContactUs\\Sent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:12:04.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAD4v2kAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:11:31.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\ContactUs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ContactUs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\ContactUs\\Index.cshtml",
+              "RelativeToolTip": "Views\\ContactUs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:09:46.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:09:34.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\EmailSender.cs",
+              "RelativeDocumentMoniker": "EmailSender.cs",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\EmailSender.cs",
+              "RelativeToolTip": "EmailSender.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:08:26.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-07T12:17:14.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\buchc\\Desktop\\POROCOUNTERFINAL\\Projekt-PipsiI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-07T12:17:18.376Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

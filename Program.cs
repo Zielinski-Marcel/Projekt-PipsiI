@@ -43,7 +43,7 @@ builder.Host.UseSerilog();
 // DataBase
 builder.Services.AddDbContext<DB>(options =>
 {
-    options.UseSqlServer("Server=DESKTOP-7UAFIFA\\SQLEXPRESS;Database=PPSIDB2;Trusted_Connection=True;TrustServerCertificate=True;");//databaseconection
+    options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=PPSIDB2;Trusted_Connection=True;TrustServerCertificate=True;");//databaseconection
 });
 
 // Mailing

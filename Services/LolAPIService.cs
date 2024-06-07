@@ -14,7 +14,7 @@ namespace PoroCounter2.Services
 
         public async Task<PlatformData> GetPlatformDataAsync()
         {
-            string apiKey = ""; // Wstaw tutaj swój klucz API
+            string apiKey = "RGAPI-bebc8ce0-630e-4c42-8e75-6a3a50ed21ba"; // Wstaw tutaj swój klucz API
             string url = $"https://eun1.api.riotgames.com/lol/status/v4/platform-data?api_key={apiKey}";
 
             var response = await _httpClient.GetAsync(url);
